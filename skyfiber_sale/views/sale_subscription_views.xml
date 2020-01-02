@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="sale_subscription_view_form_inherit_skyfiber" model="ir.ui.view">
+        <field name="name">sale.subscription.form.view.inherit.skyfiber</field>
+        <field name="model">sale.subscription</field>
+        <field name="inherit_id" ref="sale_subscription.sale_subscription_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='date_start']" position="after">
+                <field name="agent_id"/>
+            </xpath>
+            <xpath expr="//field[@name='recurring_invoice_line_ids']//tree//field[@name='price_subtotal']" position='before'>
+                <field name="commission_percent" groups="sales_team.group_sale_manager,account.group_account_manager,sale_subscription.group_sale_subscription_manager"/>
+                <field name="commission_amount" groups="sales_team.group_sale_manager,account.group_account_manager,sale_subscription.group_sale_subscription_manager"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

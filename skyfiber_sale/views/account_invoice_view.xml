@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="account_invoice_view_form_skyfiber" model="ir.ui.view">
+        <field name="name">account.invoice.form.skyfiber</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="agent_id"/>
+            </xpath>
+            <xpath expr="//field[@name='invoice_line_ids']//tree//field[@name='price_subtotal']" position="before">
+                <field name="commission_percent" groups="sales_team.group_sale_manager,account.group_account_manager,sale_subscription.group_sale_subscription_manager"/>
+                <field name="commission_amount" groups="sales_team.group_sale_manager,account.group_account_manager,sale_subscription.group_sale_subscription_manager"/>
+            </xpath>
+            <xpath expr="//group[hasclass('oe_subtotal_footer')]//field[@name='residual']" position="after">
+                <field name="total_commission" groups="sales_team.group_sale_manager,account.group_account_manager,sale_subscription.group_sale_subscription_manager"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

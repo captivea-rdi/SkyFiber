@@ -1,0 +1,1271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.odoo_studio_product__d09d2fc4-e396-48bb-825b-a6f306a81bb0" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='lst_price']" position="attributes">
+          <attribute name="attrs">{}</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="product.product_variant_easy_edit_view"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">product.product</field>
+    <field name="name">Odoo Studio: product.product.view.form.easy customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_res_part_3a51dac7-6f90-47e5-91a5-f2ff035b40b4" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//form[1]/sheet[1]/notebook[1]/page[1]/field[@name='child_ids']/form[1]" position="after">
+          <tree string="Contacts">
+            <field name="comment"/>
+            <field name="display_name" string="Name"/>
+            <field name="street"/>
+            <field name="function" invisible="1"/>
+            <field name="phone"/>
+            <field name="email"/>
+            <field name="user_id" invisible="1"/>
+            <field name="is_company" invisible="1"/>
+            <field name="country_id" invisible="1"/>
+            <field name="parent_id" invisible="1"/>
+            <field name="active" invisible="1"/>
+          </tree>
+        </xpath>
+        <xpath expr="//form[1]/sheet[1]/notebook[1]" position="inside">
+          <page name="studio_page_6gQUF" string="Service Specs">
+            <group name="studio_group_6gQUF">
+              <group name="studio_group_6gQUF_left">
+                <field name="x_studio_speed" string="Speed" attrs="{}" readonly="1"/>
+                <field name="x_studio__download" string="-Download" attrs="{}"/>
+                <field name="x_studio__upload" string="-Upload" attrs="{}"/>
+                <field name="x_studio_ip_address" string="IP Address" attrs="{}"/>
+                <field name="x_studio_ip_netmask" string="IP Netmask" attrs="{}"/>
+                <field name="x_studio_field_67KZ8"/>
+              </group>
+            </group>
+            <group name="studio_group_s5GVS">
+        </group>
+          </page>
+          <page name="studio_page_Ia6Qt" string="New Page">
+            <group name="studio_group_Ia6Qt">
+              <group name="studio_group_Ia6Qt_left"/>
+              <group name="studio_group_Ia6Qt_right"/>
+            </group>
+          </page>
+          <page name="studio_page_oId1j" string="New Page">
+            <group name="studio_group_oId1j">
+              <group name="studio_group_oId1j_left"/>
+              <group name="studio_group_oId1j_right"/>
+            </group>
+          </page>
+          <page name="studio_page_bzrXl" string="New Page">
+            <group name="studio_group_bzrXl">
+              <group name="studio_group_bzrXl_left"/>
+              <group name="studio_group_bzrXl_right"/>
+            </group>
+          </page>
+          <page name="studio_page_VUkKm" string="New Page">
+            <group name="studio_group_VUkKm">
+              <group name="studio_group_VUkKm_left"/>
+              <group name="studio_group_VUkKm_right"/>
+            </group>
+          </page>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_67KZ8'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Routing</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_Ia6Qt'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">ECON</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_oId1j'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">ACON</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_bzrXl'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">TCON</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_VUkKm'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">LCON</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_6gQUF'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Internal Notes</attribute>
+        </xpath>
+        <xpath expr="//page[@name='internal_notes'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_s5GVS'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_Ia6Qt_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_Ia6Qt_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_phone"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone'][not(ancestor::field)]" position="after">
+          <field name="x_studio_address"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone'][not(ancestor::field)]" position="after">
+          <field name="x_studio_email"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address'][not(ancestor::field)]" position="after">
+          <field name="x_studio_state"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state'][not(ancestor::field)]" position="after">
+          <field name="x_studio_zip"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address'][not(ancestor::field)]" position="after">
+          <field name="x_studio_city"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone'][not(ancestor::field)]" position="before">
+          <field name="x_studio_name"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip'][not(ancestor::field)]" position="after">
+          <field name="x_studio_econ_notes"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_econ_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">ECON Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_oId1j_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_oId1j_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_city_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_zip_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_state_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_1'][not(ancestor::field)]" position="before">
+          <field name="x_studio_address_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_1'][not(ancestor::field)]" position="before">
+          <field name="x_studio_email_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_1'][not(ancestor::field)]" position="before">
+          <field name="x_studio_phone_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_1'][not(ancestor::field)]" position="before">
+          <field name="x_studio_name_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_acon_notes"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_1'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_city_1'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_acon_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">ACON Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_bzrXl_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_name'][not(ancestor::field)]" position="before">
+          <field name="x_studio_billing_contact"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_billing_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_billing_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Contact</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_1'][not(ancestor::field)]" position="before">
+          <field name="x_studio_admin_contact"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_admin_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin Contact</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_admin_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly">1</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_bzrXl_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_technical_contact"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technical_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Technical Contact</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technical_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technical_contact'][not(ancestor::field)]" position="after">
+          <field name="x_studio_email_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio_city_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio_address_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio_zip_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technical_contact'][not(ancestor::field)]" position="after">
+          <field name="x_studio_name_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio_state_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio_phone_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio_tcon_notes"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_tcon_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">TCON</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_tcon_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">TCON Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_VUkKm_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_VUkKm_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_local_contact"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_local_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local Contact</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_local_contact'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_local_contact'][not(ancestor::field)]" position="after">
+          <field name="x_studio_phone_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_3'][not(ancestor::field)]" position="after">
+          <field name="x_studio_email_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_3'][not(ancestor::field)]" position="after">
+          <field name="x_studio_state_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_3'][not(ancestor::field)]" position="after">
+          <field name="x_studio_city_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_3'][not(ancestor::field)]" position="after">
+          <field name="x_studio_address_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_3'][not(ancestor::field)]" position="after">
+          <field name="x_studio_zip_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_local_contact'][not(ancestor::field)]" position="after">
+          <field name="x_studio_name_3"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_3'][not(ancestor::field)]" position="after">
+          <field name="x_studio_lcon_notes"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_lcon_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">LCON Notes</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_econ_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">BCON Notes</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_Ia6Qt'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">BCON</attribute>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/div[2]" position="after">
+          <group name="studio_group_0VyBW">
+            <group name="studio_group_0VyBW_left" string="Left Title"/>
+            <group name="studio_group_0VyBW_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_0VyBW_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='accounting_disabled'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_0VyBW_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='type'][not(ancestor::field)]" position="before">
+          <field name="x_studio_commercial_account"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Commercial Account</attribute>
+        </xpath>
+        <xpath expr="//field[@name='website'][not(ancestor::field)]" position="after">
+          <field name="x_studio_agent"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_agent'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Agent</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="after">
+          <field name="x_studio_residential_account"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_residential_account'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Residential Account</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_6gQUF'][not(ancestor::field)]" position="after">
+          <group name="studio_group_UwTB3">
+            <group name="studio_group_UwTB3_left" string="Left Title"/>
+            <group name="studio_group_UwTB3_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_UwTB3_left'][not(ancestor::field)]" position="inside">
+          <xpath expr="//field[@name='x_studio_speed'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_speed'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio__download'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio__download'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio__upload'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_UwTB3_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Technician Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_UwTB3_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Service Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_UwTB3_right'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_install_date"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_install_date'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Install Date</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_install_date'][not(ancestor::field)]" position="after">
+          <field name="x_studio_technician_name"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Technician Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_technician_name_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Technician Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_ip_address'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ip_address'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Radio IP</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ip_address'][not(ancestor::field)]" position="after">
+          <field name="x_studio_access_point_ip"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_access_point_ip'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Access Point IP</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_access_point_ip'][not(ancestor::field)]" position="after">
+          <field name="x_studio_static_ip"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_access_point_ip'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_static_ip'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_ip'][not(ancestor::field)]" position="after">
+          <field name="x_studio_ssid"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ssid'][not(ancestor::field)]" position="after">
+          <field name="x_studio_freq"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio__upload'][not(ancestor::field)]" position="after">
+          <field name="x_studio_contract_length_in_years"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length_in_years'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Contract Length in Years</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length_in_years'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio__upload'][not(ancestor::field)]" position="after">
+          <field name="x_studio_contract_length"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_ip_netmask'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ip_netmask'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_field_67KZ8'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_ip'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Static IP</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ssid'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">SSID</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Contract Length</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_freq'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">FREQ</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_freq'][not(ancestor::field)]" position="after">
+          <field name="x_studio_notes"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_6gQUF_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_67KZ8'][not(ancestor::field)]" position="after">
+          <field name="x_studio_pop_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_pop_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">POP#</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_pop_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_zone"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zone'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Zone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zone'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zone'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zone'][not(ancestor::field)]" position="attributes">
+          <attribute name="placeholder">Coming Soon</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_field_67KZ8'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ip_netmask'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">IP Address(es)</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ip_netmask'][not(ancestor::field)]" position="after">
+          <field name="x_studio_static_gateway"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_gateway'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Static Gateway</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_gateway'][not(ancestor::field)]" position="after">
+          <field name="x_studio_static_vlan"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_vlan'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Static VLAN</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_ip'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Installation Description</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_notes'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Installation Description:</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Assisting Technician</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Lead Technician</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Technician 1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_Z61gU"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Lead Technician 1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">- Assist Technician</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_lead_technician_2"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_lead_technician_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Lead Technician 2</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_lead_technician_2'][not(ancestor::field)]" position="after">
+          <field name="x_studio__assist_technician"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio__assist_technician'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">- Assist Technician</attribute>
+        </xpath>
+        <xpath expr="/form[1]/div[1]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_Z61gU'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_lead_technician_2'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio__assist_technician'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_technician_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_technician_name_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_lead_technician_2_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_lead_technician_2_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Lead Technician 2</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_lead_technician_2_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio__assist_technician_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_technician_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">-Assist Technician</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio__assist_technician_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">-Assist Technician</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_residential_account'][not(ancestor::field)]" position="after">
+          <field name="x_studio_pop_location"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_pop_location'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">POP Location</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_0VyBW'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_import_complete"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_import_complete'][not(ancestor::field)]" position="attributes">
+          <attribute name="string"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_import_complete'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Import Complete</attribute>
+        </xpath>
+        <xpath expr="//field[@name='function'][not(ancestor::field)]" position="before">
+          <field name="id"/>
+        </xpath>
+        <xpath expr="//field[@name='id'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Security ID</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_notes'][not(ancestor::field)]" position="after">
+          <field name="x_studio_gps_lat_long"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_gps_lat_long'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">GPS (Lat , Long)</attribute>
+        </xpath>
+        <xpath expr="//sheet" position="after">
+          <div class="oe_chatter">
+            <field name="message_follower_ids" widget="mail_followers"/>
+            <field name="message_ids" widget="mail_thread"/>
+          </div>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_city'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Admin Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_2'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Tech Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_name_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_phone_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local Phone</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_email_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local Email</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_address_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local Address</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_city_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local City</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_state_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local State</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Local Zip</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="invisible">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_zip_3'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="invisible"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="before">
+          <field name="x_studio_whmcs_id"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">whmcs ID</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{"invisible": [["x_studio_whmcs_id","=",False]]}</attribute>
+          <attribute name="invisible"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{"invisible": [["x_studio_whmcs_id","!=",False]]}</attribute>
+          <attribute name="invisible"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="invisible"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{"invisible": True}</attribute>
+          <attribute name="invisible"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="invisible"/>
+        </xpath>
+        <xpath expr="//field[@name='property_payment_term_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="required">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='property_payment_term_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="required"/>
+        </xpath>
+        <xpath expr="//field[@name='id'][not(ancestor::field)]" position="after">
+          <field name="x_studio_preferred_billing"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_preferred_billing'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Preferred Billing</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="before">
+          <field name="x_studio_whmcs"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">WHMCS</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">html</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">html_frame</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="before">
+          <field name="x_studio_whmcs"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="before">
+          <field name="website_message_ids"/>
+        </xpath>
+        <xpath expr="//field[@name='website_message_ids'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_commercial_account'][not(ancestor::field)]" position="before">
+          <field name="signup_url"/>
+        </xpath>
+        <xpath expr="//field[@name='signup_url'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">url</attribute>
+        </xpath>
+        <xpath expr="//field[@name='signup_url'][not(ancestor::field)]" position="attributes">
+          <attribute name="attrs">{}</attribute>
+          <attribute name="readonly"/>
+        </xpath>
+        <xpath expr="//field[@name='signup_url'][not(ancestor::field)]" position="before">
+          <field name="x_studio_whmcs_id_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">url</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">WHMCS ID</attribute>
+        </xpath>
+        <xpath expr="//field[@name='signup_url'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_gps_lat_long'][not(ancestor::field)]" position="after">
+          <field name="x_studio_block"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_block'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">char</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_block'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Block</attribute>
+        </xpath>
+        <xpath expr="//field[@name='ref'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">WHMCS #</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_whmcs_id_1'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_import_complete'][not(ancestor::field)]" position="after">
+          <field name="x_studio_billing_option"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_billing_option'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Option</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length'][not(ancestor::field)]" position="after">
+          <field name="x_studio_contract_end_date"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_end_date'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Contract End Date</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_Ia6Qt'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_oId1j'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_bzrXl'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_VUkKm'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='ref'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">url</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_preferred_billing'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='ref'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget"/>
+        </xpath>
+        <xpath expr="//field[@name='ref'][not(ancestor::field)]" position="attributes">
+          <attribute name="options"/>
+          <attribute name="widget">url</attribute>
+        </xpath>
+        <xpath expr="//field[@name='company_id'][not(ancestor::field)]" position="after">
+          <field name="x_studio_referral_name"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_referral_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Referral Name</attribute>
+        </xpath>
+        <xpath expr="//field[@name='property_product_pricelist'][not(ancestor::field)]" position="after">
+          <field name="x_studio_lead_source"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_lead_source'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Lead Source</attribute>
+        </xpath>
+        <xpath expr="//field[@name='property_payment_term_id'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_lead_source'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//form/*[1]" position="before">
+          <header/>
+        </xpath>
+        <xpath expr="//header[not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_aeBan" options="{'clickable': '1'}" widget="statusbar"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_UwTB3'][not(ancestor::field)]" position="after">
+          <group name="studio_group_E2Lt8">
+            <group name="studio_group_E2Lt8_left" string="Left Title"/>
+            <group name="studio_group_E2Lt8_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_E2Lt8_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Engineering Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_E2Lt8_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="string"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_E2Lt8_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_SYIlx"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_SYIlx'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_E2Lt8_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_link_distance"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_link_distance'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Link Distance</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_link_distance'][not(ancestor::field)]" position="after">
+          <field name="x_studio_radio_type"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_radio_type'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Radio Type</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_radio_type'][not(ancestor::field)]" position="after">
+          <field name="x_studio_ap_type"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_E2Lt8_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Engineering Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_E2Lt8_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Billing Notes</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_radio_type'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_ap_type'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ap_type'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">AP Type</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_link_distance'][not(ancestor::field)]" position="attributes">
+          <attribute name="placeholder">Miles</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_E2Lt8_right'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_payment_history"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_payment_history'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Payment History</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_payment_history'][not(ancestor::field)]" position="after">
+          <field name="x_studio_5_star_review"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_5_star_review'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">5 Star Review</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_static_vlan'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_pop_1'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_payment_history'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_contract_length'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio__upload'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_contract_end_date'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_contract_length'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_contract_end_date'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ap_type'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_bUQAZ"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_bUQAZ'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_zone'][not(ancestor::field)]" position="after">
+          <field name="x_studio_area_type"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_area_type'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Area Type</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_freq'][not(ancestor::field)]" position="after">
+          <xpath expr="//field[@name='x_studio_area_type'][not(ancestor::field)]" position="move"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_agent'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_referral_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_employee_referral"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_employee_referral'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Employee Referral</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ap_type'][not(ancestor::field)]" position="after">
+          <field name="x_studio_closest_fiber_pop"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_closest_fiber_pop'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Closest Fiber POP</attribute>
+        </xpath>
+        <xpath expr="//field[@name='vat'][not(ancestor::field)]" position="after">
+          <field name="x_studio_county"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_county'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">County</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_ap_type'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_closest_fiber_pop'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]" position="inside">
+          <page name="studio_page_5wRMQ" string="New Page">
+            <group name="studio_group_5wRMQ">
+              <group name="studio_group_5wRMQ_left"/>
+              <group name="studio_group_5wRMQ_right"/>
+            </group>
+          </page>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_5wRMQ'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">LTE</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_5wRMQ'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">LTE Notes</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_5wRMQ'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_UwTB3'][not(ancestor::field)]" position="after">
+          <group name="studio_group_Edoiz">
+            <group name="studio_group_Edoiz_left" string="Left Title"/>
+            <group name="studio_group_Edoiz_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_Edoiz_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_Edoiz_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">LTE Notes</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_Edoiz_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_radio_type_1"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_radio_type_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Radio</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_radio_type_1'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Radio Type</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_radio_type_1'][not(ancestor::field)]" position="after">
+          <field name="x_studio_username"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_username'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Username</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_username'][not(ancestor::field)]" position="after">
+          <field name="x_studio_enb_id"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_enb_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">eNB ID</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_enb_id'][not(ancestor::field)]" position="after">
+          <field name="x_studio_sim_id"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_sim_id'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">SIM ID</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_sim_id'][not(ancestor::field)]" position="after">
+          <field name="x_studio_imei"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_imei'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">IMEI</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_username'][not(ancestor::field)]" position="after">
+          <field name="x_studio_password"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_password'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">Password</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_imei'][not(ancestor::field)]" position="after">
+          <field name="x_studio_mno"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_mno'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">MNO</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_mno'][not(ancestor::field)]" position="after">
+          <field name="x_studio_mvno"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_mvno'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">MVNO</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">res.partner</field>
+    <field name="name">Odoo Studio: res.partner.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_sale_ord_45fa433f-1bdf-4b2f-aec7-d6774858ff89" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='partner_id']" position="after">
+          <field name="x_studio_mobile" string="Mobile"/>
+          <field name="x_studio_phone" string="Phone"/>
+        </xpath>
+        <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='order_lines']/field[@name='order_line']/form[1]/group[1]/group[1]/field[@name='product_id']" position="after">
+          <field name="x_studio_service_location_1" string="Service Location"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="sale.view_order_form"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">sale.order</field>
+    <field name="name">Odoo Studio: sale.order.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_res_part_ecfd38cc-a788-491e-b15e-66058d097464" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='display_name']" position="before">
+          <field name="id" string="Security ID"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="base.view_partner_tree"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">res.partner</field>
+    <field name="name">Odoo Studio: res.partner.tree customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.odoo_studio_report_s_3d3ffd08-6443-4f5e-830c-319f421473e4" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="/t/t/div/div[3]/div/div/table/tr[2]/td[1]/strong" position="before">
+          <span>New Text Block</span>
+        </xpath>
+        <xpath expr="/t/t/div/table/tbody/t[2]/tr/t[1]/td[3]/span" position="before">
+          <span t-field="line.x_studio_service_location"/>
+        </xpath>
+        <xpath expr="/t[1]/t[1]/div[1]/table[1]/tbody[1]/t[2]/tr[1]/t[1]/td[3]/span[1]" position="replace"/>
+        <xpath expr="/t/t/div/table/thead/tr/th[2]" position="after">
+          <th>
+            <span>Service Address</span>
+          </th>
+        </xpath>
+        <xpath expr="/t/t/div/table/tbody/t[2]/tr/t[1]/td[2]" position="after">
+          <td>
+            <span t-field="line.x_address_location"/>
+          </td>
+        </xpath>
+        <xpath expr="/t/t/div/table/tbody/t[2]/t[3]/tr/td" position="attributes">
+          <attribute name="colspan">100</attribute>
+        </xpath>
+        <xpath expr="/t/t/div/div[6]" position="after">
+          <div class="row">
+            <div class="col h2">
+              <span>New Title</span>
+            </div>
+          </div>
+        </xpath>
+        <xpath expr="/t/t/div/div[7]/div/span" position="replace">
+          <span>Service T&amp;C's visit</span>
+        </xpath>
+        <xpath expr="/t/t/div/div[7]/div/span" position="replace">
+          <span>
+            <font style="font-size: 9px;">Service T&amp;C's visit</font>
+          </span>
+        </xpath>
+        <xpath expr="/t[1]/t[1]/div[1]/div[7]/div[1]" position="replace"/>
+        <xpath expr="/t/t/div/div[7]" position="after">
+          <div class="row">
+            <div class="col">
+              <span>New Text Block</span>
+            </div>
+          </div>
+        </xpath>
+        <xpath expr="/t/t/div/div[8]/div/span" position="replace">
+          <span>
+            <p>Services Terms &amp; Conditions<br/>Visit SkyFiberInternet.com/T&amp;C</p>
+          </span>
+        </xpath>
+        <xpath expr="/t/t/div/div[8]" position="after">
+          <div class="row">
+            <div class="col">
+              <span>New Text Block</span>
+            </div>
+          </div>
+        </xpath>
+        <xpath expr="/t/t/div/div[9]/div/span" position="replace">
+          <span>ew Text Block</span>
+        </xpath>
+        <xpath expr="/t[1]/t[1]/div[1]/div[9]/div[1]" position="replace"/>
+        <xpath expr="/t/t/div/div[3]/div/div/table/tr[2]/td[1]/span" position="replace">
+          <span>ew Text Block</span>
+        </xpath>
+        <xpath expr="/t/t/div/div[3]/div/div/table/tr[2]/td[1]/span" position="replace">
+          <span>Text Block</span>
+        </xpath>
+        <xpath expr="/t[1]/t[1]/div[1]/div[3]/div[1]/div[1]/table[1]/tr[2]/td[1]/span[1]" position="replace"/>
+        <xpath expr="/t[1]/t[1]/div[1]/table[1]/tbody[1]/t[2]/t[3]/tr[1]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="sale.report_saleorder_document"/>
+    <field name="key">gen_key.75afdb</field>
+    <field name="mode">extension</field>
+    <field name="model" eval="False"/>
+    <field name="name">Odoo Studio: report_saleorder_document customization</field>
+    <field name="priority">99</field>
+    <field name="type">qweb</field>
+  </record>
+  <record id="studio_customization.odoo_studio_hr_expen_74108fda-d83b-4a73-908f-73b023d999fc" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='employee_id']" position="after">
+          <field name="x_studio_field_ahy7H" string="Card Number"/>
+        </xpath>
+        <xpath expr="//field[@name='payment_mode']" position="attributes">
+          <attribute name="default_value">company_account</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="hr_expense.hr_expense_view_form"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">hr.expense</field>
+    <field name="name">Odoo Studio: hr.expense.view.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_hr_emplo_5b092be4-e7e5-4201-b211-9e9830028d1a" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='tz']" position="after">
+          <field name="x_studio_amex_card_number_2" string="Amex Card Number" placeholder="XXXX" groups="hr.group_hr_manager"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="hr.view_employee_form"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">hr.employee</field>
+    <field name="name">Odoo Studio: hr.employee.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_sale_ord_5d0e8183-8856-4607-953c-4d713cc90b67" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//field[@name='partner_id']" position="after">
+          <xpath expr="//field[@name='state']" position="move"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">sale.order</field>
+    <field name="name">Odoo Studio: sale.order.tree customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record id="studio_customization.odoo_studio_report_i_5d32bb7f-e7f4-46b1-89e6-6d1561bfb30a" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="/t[1]/t[1]/div[1]/table[1]/tbody[1]/t[2]/t[3]/tr[1]/td[1]/span[1]" position="replace"/>
+        <xpath expr="/t[1]/t[1]/div[1]/table[1]/tbody[1]/t[2]/t[3]/tr[1]/td[1]/strong[1]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="account.report_invoice_document_with_payments"/>
+    <field name="key">gen_key.e6a3fb</field>
+    <field name="mode">extension</field>
+    <field name="model" eval="False"/>
+    <field name="name">Odoo Studio: report_invoice_document_with_payments customization</field>
+    <field name="priority">99</field>
+    <field name="type">qweb</field>
+  </record>
+  <record id="studio_customization.default_pivot_view_f_b3eb634c-5496-4ebf-9bd6-3d7c651a5de5" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <pivot string="Payment Transaction"/>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">payment.transaction</field>
+    <field name="name">Default pivot view for payment.transaction</field>
+    <field name="priority">16</field>
+    <field name="type">pivot</field>
+  </record>
+</odoo>
