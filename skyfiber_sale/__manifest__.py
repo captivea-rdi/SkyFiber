@@ -29,16 +29,16 @@ We will be using Odoo filters on Invoices to filter down on "Paid" invoices for 
    v) If a new line is added on the invoice (e.g. late fee), its commission value should default to 0. We will not handle invoices marked paid via write-off or credit note.
 
 d) Users with the following access should be able to view and edit "Commission %" and "Commission Value" fields on Invoices and Subscriptions. For other users, these should be invisible.
--> Sales/ Manager
--> Accounting/ Advisor
--> Subscriptions/ Manage Subscriptions
+-> Sales/ Administrator
+-> Invoicing/ Billing Administrator
+-> Subscriptions/ Administrator
     """,
 
     'author': "Odoo Inc",
     'website': "http://odoo.com",
 
     'category': 'Custom Development',
-    'version': '0.1',
+    'version': '13.0.1.0.0',
     'depends': ['account', 'sale_subscription'],
 
     'data': [

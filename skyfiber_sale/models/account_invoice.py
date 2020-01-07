@@ -4,8 +4,8 @@
 from odoo import api, models, fields
 
 
-class AccountInvoice(models.Model):
-    _inherit = "account.invoice"
+class AccountMove(models.Model):
+    _inherit = "account.move"
 
     agent_id = fields.Many2one("res.partner", domain=[("is_agent", "=", True)])
     order_id = fields.Many2one("sale.order", string="Sale Order")
@@ -25,8 +25,8 @@ class AccountInvoice(models.Model):
             order.total_commission = sum(commission_totals)
 
 
-class AccountInvoiceLine(models.Model):
-    _inherit = "account.invoice.line"
+class AccountMoveLine(models.Model):
+    _inherit = "account.move.line"
 
     commission_percent = fields.Integer(string="Commission %", default=0)
     commission_amount = fields.Monetary(

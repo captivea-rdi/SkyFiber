@@ -14,8 +14,8 @@ class SaleSubscription(models.Model):
         res.update(agent_id=self.agent_id.id)
         return res
 
-    def _prepare_invoice_line(self, line, fiscal_position):
-        res = super(SaleSubscription, self)._prepare_invoice_line(line, fiscal_position)
+    def _prepare_invoice_line(self, line, fiscal_position, date_start=False, date_stop=False):
+        res = super(SaleSubscription, self)._prepare_invoice_line(line, fiscal_position, date_start, date_stop)
         res.update(commission_percent=line.commission_percent)
         return res
 
