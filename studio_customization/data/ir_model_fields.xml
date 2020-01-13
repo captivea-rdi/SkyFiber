@@ -25,7 +25,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -54,7 +54,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -83,7 +83,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -112,7 +112,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -141,7 +141,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -170,7 +170,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -199,7 +199,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -228,7 +228,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -257,7 +257,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -286,7 +286,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -315,7 +315,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -344,7 +344,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -373,7 +373,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -402,7 +402,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -431,7 +431,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -460,7 +460,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -489,7 +489,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -518,7 +518,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -547,7 +547,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -576,7 +576,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -605,7 +605,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -634,7 +634,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -663,7 +663,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -692,7 +692,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -721,7 +721,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -750,7 +750,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -779,7 +779,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -808,7 +808,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -837,7 +837,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -866,7 +866,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -895,7 +895,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -924,7 +924,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -953,7 +953,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -982,7 +982,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -1011,7 +1011,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1040,7 +1040,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1069,7 +1069,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1098,7 +1098,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1127,7 +1127,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1156,7 +1156,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1185,7 +1185,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1214,7 +1214,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -1243,7 +1243,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1272,7 +1272,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1301,7 +1301,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1330,7 +1330,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1359,7 +1359,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1388,7 +1388,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1417,7 +1417,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1446,7 +1446,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1475,7 +1475,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1504,7 +1504,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1533,7 +1533,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -1562,7 +1562,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1591,7 +1591,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1620,7 +1620,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1649,7 +1649,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1678,7 +1678,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1707,7 +1707,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1736,7 +1736,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1765,7 +1765,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -1794,7 +1794,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -1823,7 +1823,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">boolean</field>
   </record>
@@ -1852,7 +1852,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">boolean</field>
   </record>
@@ -1881,7 +1881,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">boolean</field>
   </record>
@@ -1910,7 +1910,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">date</field>
   </record>
@@ -1939,7 +1939,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -1968,7 +1968,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -1997,7 +1997,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2026,7 +2026,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2055,7 +2055,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2084,7 +2084,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2113,7 +2113,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2142,7 +2142,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -2171,7 +2171,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -2200,7 +2200,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2229,7 +2229,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2258,7 +2258,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2287,7 +2287,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2316,7 +2316,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2345,7 +2345,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2374,7 +2374,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2403,7 +2403,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -2432,7 +2432,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -2461,7 +2461,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">boolean</field>
   </record>
@@ -2490,7 +2490,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">boolean</field>
   </record>
@@ -2519,7 +2519,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2548,7 +2548,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">float</field>
   </record>
@@ -2577,7 +2577,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">integer</field>
   </record>
@@ -2606,7 +2606,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2635,7 +2635,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2664,7 +2664,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">integer</field>
   </record>
@@ -2693,7 +2693,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">float</field>
   </record>
@@ -2722,7 +2722,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2751,7 +2751,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2780,7 +2780,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2809,7 +2809,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -2838,7 +2838,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">html</field>
   </record>
@@ -2867,7 +2867,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2896,7 +2896,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -2925,7 +2925,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -2954,7 +2954,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">date</field>
   </record>
@@ -2983,7 +2983,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3012,7 +3012,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -3041,7 +3041,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -3070,7 +3070,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">integer</field>
   </record>
@@ -3099,7 +3099,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">float</field>
   </record>
@@ -3128,7 +3128,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3157,7 +3157,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3186,7 +3186,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -3215,7 +3215,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">boolean</field>
   </record>
@@ -3244,7 +3244,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">text</field>
   </record>
@@ -3273,7 +3273,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -3302,7 +3302,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -3331,7 +3331,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">integer</field>
   </record>
@@ -3360,7 +3360,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">selection</field>
   </record>
@@ -3389,7 +3389,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3418,7 +3418,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3447,7 +3447,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3476,7 +3476,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3505,7 +3505,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3534,7 +3534,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3563,7 +3563,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>
@@ -3592,7 +3592,7 @@
     <field name="size" eval="False"/>
     <field name="state">manual</field>
     <field name="store" eval="True"/>
-    <field name="track_visibility" eval="False"/>
+    <field name="tracking" eval="False"/>
     <field name="translate" eval="False"/>
     <field name="ttype">char</field>
   </record>

@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
   <record id="payment.action_payment_transaction" model="ir.actions.act_window" context="{'studio': True}">
-    <field name="auto_search" eval="True"/>
     <field name="binding_model_id" eval="False"/>
     <field name="binding_type">action</field>
     <field name="context">{}</field>
@@ -13,20 +12,16 @@
               </p>
             ]]></field>
     <field name="limit">80</field>
-    <field name="multi" eval="False"/>
     <field name="name">Payment Transactions</field>
     <field name="res_model">payment.transaction</field>
     <field name="search_view_id" eval="False"/>
-    <field name="src_model" eval="False"/>
     <field name="target">current</field>
     <field name="type">ir.actions.act_window</field>
     <field name="usage" eval="False"/>
     <field name="view_id" eval="False"/>
     <field name="view_mode">tree,kanban,form,pivot</field>
-    <field name="view_type">form</field>
   </record>
   <record id="project.open_view_project_all" model="ir.actions.act_window" context="{'studio': True}">
-    <field name="auto_search" eval="True"/>
     <field name="binding_model_id" eval="False"/>
     <field name="binding_type">action</field>
     <field name="context">{}</field>
@@ -36,16 +31,13 @@
     <field name="help"><![CDATA[<p class="o_view_nocontent_smiling_face">
                     Create a new project</p>]]></field>
     <field name="limit">80</field>
-    <field name="multi" eval="False"/>
     <field name="name">Projects</field>
     <field name="res_model">project.project</field>
     <field name="search_view_id" ref="project.view_project_project_filter"/>
-    <field name="src_model" eval="False"/>
     <field name="target">main</field>
     <field name="type">ir.actions.act_window</field>
     <field name="usage" eval="False"/>
     <field name="view_id" ref="project.view_project_kanban"/>
     <field name="view_mode">kanban,form,tree</field>
-    <field name="view_type">form</field>
   </record>
 </odoo>
